@@ -1,0 +1,12 @@
+prefix=d:/Education/Code/GenAI/Python/venv/Library
+exec_prefix=d:/Education/Code/GenAI/Python/venv/Library
+libdir=d:/Education/Code/GenAI/Python/venv/Library/lib
+includedir=d:/Education/Code/GenAI/Python/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
